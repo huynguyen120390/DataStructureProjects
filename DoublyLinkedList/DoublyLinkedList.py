@@ -89,13 +89,9 @@ class DoublyLinkedList:
                 else:
                     index += 1
                     curr = curr.next
-                
-            
             return -1        
     
             
-    
-
     def traverse_to_index(self,index):
         if (index < 0 or index > self.length - 1):
             raise "OutBoundOfLinkedList"
@@ -105,9 +101,6 @@ class DoublyLinkedList:
             count += 1
             curr = curr.next
         return curr
-
-    
-
 
 
     def display(self):
